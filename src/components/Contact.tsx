@@ -79,7 +79,7 @@ export default function Contact({ lang }: Props) {
     <section
       ref={sectionRef}
       id="contact"
-      className="spotlight relative py-32 overflow-hidden"
+      className="spotlight relative py-32"
     >
       {/* Background particles */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">

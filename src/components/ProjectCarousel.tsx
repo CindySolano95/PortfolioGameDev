@@ -107,7 +107,7 @@ export default function ProjectCarousel({ lang }: Props) {
     <section
       ref={sectionRef}
       id="portfolio"
-      className="relative py-28 overflow-hidden"
+      className="relative py-28 overflow-x-clip"
     >
       {/* BG glow */}
       <div

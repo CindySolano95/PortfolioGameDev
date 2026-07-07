@@ -100,15 +100,15 @@ export default function Skills({ lang }: Props) {
   return (
     <section
       id="skills"
-      className="relative py-28 overflow-hidden"
+      className="relative py-28"
     >
       <div
-        className="absolute right-0 top-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full blur-[130px] pointer-events-none opacity-10"
-        style={{ background: 'radial-gradient(circle, var(--color-primary), transparent)' }}
+        className="absolute right-0 top-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full blur-[160px] pointer-events-none"
+        style={{ background: 'radial-gradient(circle, var(--color-primary), transparent)', opacity: 0.14 }}
       />
       <div
-        className="absolute left-0 bottom-0 w-[400px] h-[400px] rounded-full blur-[120px] pointer-events-none opacity-08"
-        style={{ background: 'radial-gradient(circle, var(--color-secondary), transparent)' }}
+        className="absolute left-0 -bottom-24 w-[600px] h-[600px] rounded-full blur-[150px] pointer-events-none"
+        style={{ background: 'radial-gradient(circle, var(--color-secondary), transparent)', opacity: 0.12 }}
       />
 
       <div className="max-w-7xl mx-auto px-6">

@@ -10,6 +10,7 @@ import Skills from './components/Skills'
 import ProjectCarousel from './components/ProjectCarousel'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import StarField from './components/StarField'
 
 export default function App() {
   const [lang, setLang] = useState<Lang>('en')
@@ -27,11 +28,12 @@ export default function App() {
 
   return (
     <>
+      <StarField />
       <CustomCursor />
 
       {!loaded && <Preloader onDone={() => setLoaded(true)} />}
 
-      <div style={{ opacity: loaded ? 1 : 0, transition: 'opacity 0.5s' }}>
+      <div style={{ opacity: loaded ? 1 : 0, transition: 'opacity 0.5s', position: 'relative', zIndex: 1 }}>
         <Navbar lang={lang} onLangToggle={toggleLang} />
 
         <main>

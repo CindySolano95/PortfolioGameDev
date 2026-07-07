@@ -73,12 +73,12 @@ export default function About({ lang }: Props) {
     <section
       ref={sectionRef}
       id="about"
-      className="relative py-28 overflow-hidden"
+      className="relative py-28"
     >
       {/* Background glow */}
       <div
-        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full blur-[150px] pointer-events-none opacity-10"
-        style={{ background: 'radial-gradient(circle, var(--color-secondary), transparent)' }}
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] rounded-full blur-[180px] pointer-events-none"
+        style={{ background: 'radial-gradient(circle, var(--color-secondary), transparent)', opacity: 0.13 }}
       />
 
       <div className="max-w-7xl mx-auto px-6">
